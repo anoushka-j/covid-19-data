@@ -1,0 +1,40 @@
+body {
+  /* background-image: "{{url_for('static', filename ='../globe_background.jpg') }}" */
+  background-color: lightblue
+  
+}
+
+h1 {
+  color:white; 
+  text-align: center;
+  margin-top: 7%;
+  font-size: 50px
+}
+
+input {
+  padding: 12px 50px;
+  box-shadow: 0 0 5px 0 #333;
+  border-radius: 25px;
+  border: lightblue;
+  margin-top : 2%;
+  width : 60%; 
+  margin-bottom: 15px;
+}
+
+i {
+  position: absolute; 
+  top: 200px;
+  left: 22%
+}
+
+input:focus {
+  outline: none
+}
+
+.card {  
+  box-shadow: 0 0 3px 0 #333;
+  border-radius: 25px;
+  margin : 0 auto;
+  margin-top : 4%;
+}
+

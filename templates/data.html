@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{%block countryname%}
+    <input name="variable" value={{countryname}}>
+{%endblock%}
+{%block card%}
+{%block showCardError%}
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Cases</h5>
+      <h6 class="card-subtitle mb-2 text-muted">As of 2020-04-01</h6>
+     <p  class="card-text">{{formatted_data}}</p>
+</div>
+</div>
+{%endblock%}
+{%endblock%}

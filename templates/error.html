@@ -1,0 +1,10 @@
+{%extends 'data.html'%}
+{%block showCardError%}
+<div class="card bg-danger" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Cases</h5>
+    <h6 class="card-subtitle mb-2">As of 2020-04-01</h6>
+   <p class="card-text">{{formatted_data}}</p>
+</div>
+</div>
+{%endblock%}
