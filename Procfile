@@ -1,1 +1,1 @@
-web: gunicorn app.py:get-covid-19-data
+web: gunicorn app: app
